@@ -1,0 +1,26 @@
+{
+  "name": "@alwaysai/tsconfig",
+  "version": "0.0.0",
+  "description": "TypeScript configurations for alwaysAI projects",
+  "main": "tsconfig.json",
+  "scripts": {
+    "test": "tsc --project tsconfig.example.json",
+    "preversion": "npm test",
+    "postversion": "npm publish"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "2.6.3",
+    "typescript": "3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alwaysai/tsconfig.git"
+  },
+  "author": {
+    "name": "alwaysAI, Inc.",
+    "email": "contact@alwaysai.co"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/alwaysai/tsconfig#readme"
+}

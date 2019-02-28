@@ -1,0 +1,10 @@
+{
+  "extends": ".",
+  "include": [
+    "src"
+  ],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./lib"
+  }
+}
