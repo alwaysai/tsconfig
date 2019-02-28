@@ -17,6 +17,10 @@
     "type": "git",
     "url": "git://github.com/alwaysai/tsconfig.git"
   },
+  "files": [
+    "nodejs",
+    "tsconfig.json"
+  ],
   "author": {
     "name": "alwaysAI, Inc.",
     "email": "contact@alwaysai.co"
